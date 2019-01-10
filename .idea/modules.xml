@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/charpter-1-spring-boot-quickstart/charpter-1-spring-boot-quickstart.iml" filepath="$PROJECT_DIR$/charpter-1-spring-boot-quickstart/charpter-1-spring-boot-quickstart.iml" />
+      <module fileurl="file://$PROJECT_DIR$/chapter-1-spring-boot-quickstart/chapter-1-spring-boot-quickstart.iml" filepath="$PROJECT_DIR$/chapter-1-spring-boot-quickstart/chapter-1-spring-boot-quickstart.iml" />
+      <module fileurl="file://$PROJECT_DIR$/chapter-2-spring-boot-config/chapter-2-spring-boot-config.iml" filepath="$PROJECT_DIR$/chapter-2-spring-boot-config/chapter-2-spring-boot-config.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/springboot-learning.iml" filepath="$PROJECT_DIR$/.idea/springboot-learning.iml" />
     </modules>
   </component>

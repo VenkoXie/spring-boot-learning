@@ -6,11 +6,13 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="charpter-1-spring-boot-quickstart" />
+        <module name="chapter-1-spring-boot-quickstart" />
+        <module name="chapter-2-spring-boot-config" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="charpter-1-spring-boot-quickstart" target="1.6" />
+      <module name="chapter-1-spring-boot-quickstart" target="1.6" />
+      <module name="chapter-2-spring-boot-config" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>
