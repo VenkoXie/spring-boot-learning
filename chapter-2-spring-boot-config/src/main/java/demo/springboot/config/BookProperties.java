@@ -1,6 +1,8 @@
 package demo.springboot.config;
 
 import org.springframework.beans.factory.annotation.Value;
+import org.springframework.boot.context.properties.ConfigurationProperties;
+import org.springframework.context.annotation.PropertySource;
 import org.springframework.stereotype.Component;
 
 /**
@@ -10,18 +12,23 @@ import org.springframework.stereotype.Component;
  * @Description:
  */
 @Component
+//@PropertySource(value = "classpath:application-dev.properties",encoding = "UTF-8" )
+@PropertySource(value = {"classpath:person.properties"},encoding = "UTF-8" )
+@ConfigurationProperties(prefix = "demo.book")
 public class BookProperties {
 
     /**
      * 书名
      */
-    @Value("${demo.book.name}")
+    //@Value("${demo.book.name}")
+    //@Value("${name}")
     private String name;
 
     /**
      * 作者
      */
-    @Value("${demo.book.writer}")
+    //@Value("${demo.book.writer}")
+    //@Value("${writer}")
     private String writer;
 
     public String getName() {
